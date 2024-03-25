@@ -14,28 +14,28 @@ AOS.init({
 // initMDB({ Carousel });
 
 // Initialize the carousel
-document.addEventListener("DOMContentLoaded", function () {
-  var myCarousel = new mdb.Carousel(
-    document.getElementById("carouselMaterialStyle")
-  );
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   var myCarousel = new mdb.Carousel(
+//     document.getElementById("carouselMaterialStyle")
+//   );
+// });
 
-const imageUrls = [
-  "images/background1.jpg",
-  "images/background2.jpg",
-  "images/background3.jpg",
-];
+// const imageUrls = [
+//   "images/background1.jpg",
+//   "images/background2.jpg",
+//   "images/background3.jpg",
+// ];
 
-// console.log("abc");
+// // console.log("abc");
 
-const coverElement = document.getElementById("coverElement");
+// const coverElement = document.getElementById("coverElement");
 
-function changeCover() {
-  const randomIndex = Math.floor(Math.random() * imageUrls.length);
-  const randomImageUrl = imageUrls[randomIndex];
-  // coverElement.style.background = `url("${randomImageUrl}")`;
-  coverElement.style.background = `linear-gradient(rgba(102,63,147,0.3), rgba(0,0,0,0.3)), url("${randomImageUrl}")`;
-}
+// function changeCover() {
+//   const randomIndex = Math.floor(Math.random() * imageUrls.length);
+//   const randomImageUrl = imageUrls[randomIndex];
+//   // coverElement.style.background = `url("${randomImageUrl}")`;
+//   coverElement.style.background = `linear-gradient(rgba(102,63,147,0.3), rgba(0,0,0,0.3)), url("${randomImageUrl}")`;
+// }
 
 setInterval(changeCover, 5000);
 
