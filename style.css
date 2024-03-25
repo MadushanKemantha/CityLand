@@ -356,3 +356,10 @@ body {
 .seemore:hover {
   text-decoration: none; /* Remove underline on hover */
 }
+
+@media (max-width: 767px) {
+  .video-container {
+    height: auto;
+    overflow-x: hidden;
+  }
+}
